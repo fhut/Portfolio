@@ -154,3 +154,5 @@ def arithmetic_arranger(problems, solve=False):
         return "".join(formatted_problems)
     else:
         return "".join(formatted_problems)
+
+print(arithmetic_arranger(["455 - 657"], solve=True))
